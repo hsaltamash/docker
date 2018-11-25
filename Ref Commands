@@ -1,0 +1,5 @@
+docker run --detach --publish 8080:8080  tomcat
+
+
+docker build -t name/sample .
+docker run -d -p 8080:8080 --name some_name name/sample

@@ -1,8 +1,9 @@
+version: '3'
 services:
   tomcat:
     container_name: tomcat-container
     build: ./tomcat
-    expose:
-      - "8009"
-      - "8080"
+    ports:
+      - '18080:8080'
+      - '18443:8443'
     
