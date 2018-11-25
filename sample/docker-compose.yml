@@ -4,4 +4,5 @@ services:
     build: ./tomcat
     expose:
       - "8009"
+      - "8080"
     
